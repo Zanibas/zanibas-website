@@ -33,4 +33,4 @@ yarn-error.log*
 # vercel
 .vercel
 
-publish.sh
+.vscode

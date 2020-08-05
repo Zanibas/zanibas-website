@@ -1,28 +1,26 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hey, I'm Kevin.
-        </h1>
-
-        <p className={styles.description}>
-          Here are some links!
-        </p>
-        <div><span>About</span> <span>Projects</span><span>Blog</span></div>
-      </main>
-
-      <footer className={styles.footer}>
-          kgserrano
-      </footer>
+  <>
+    <Head>
+      <title>kgserrano</title>
+    </Head>
+    <div className='max-w-xs flex mx-auto p-6 pb-2'>
+      <h1 className='text-5xl font-thin'>kgs</h1>
     </div>
+    <div className='max-w-xs flex mx-auto px-6 py-2 whitespace-pre-line overflow-x-auto'>
+      <p>
+        {`My name is Kevin.
+        I like graphs.
+        I like psychology.`}
+      </p>
+    </div>
+    <div className='max-w-xs flex mx-auto flex-row'>
+      <div className='text-center bg-gray-200 ml-6 px-4 py-2 m-2 rounded-md'>About</div>
+      <div className='text-center bg-gray-200 px-4 py-2 m-2 rounded-md'>Projects</div>
+      <div className='text-center bg-gray-200 px-4 py-2 m-2 rounded-md'>Blog</div>
+    </div>
+  </>
   )
 }
