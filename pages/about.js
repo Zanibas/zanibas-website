@@ -15,8 +15,10 @@ export default function About() {
                     {`Kevin.
                     Graphs.
                     Psychology.
-                    Five years blockchain.
-                    UC Berkeley: graduated.
+                    `}
+                    {`
+                    Four years in blockchain.
+                    Graduated from UC Berkeley: CogSci/CompSci
                     `}
                 </p>
             </div>
